@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Oleo+Script+Swash+Caps:wght@700&display=swap");
+.header {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 48px;
+  color: rgb(48, 45, 71);
+  margin-bottom: 30px;
+}
+.neon {
+  animation: flicker 3s infinite alternate 2s;
+}
+@keyframes flicker {
+  0% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+
+  50% {
+    color: rgb(62, 108, 233);
+    text-shadow: -0.2rem -0.2rem 1rem rgba(62, 108, 233, 0.701),
+      0.2rem 0.2rem 1rem rgba(103, 68, 230, 0.856);
+  }
+
+  95% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
